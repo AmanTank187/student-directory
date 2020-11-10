@@ -9,7 +9,7 @@ def input_students
   #While the name variable is not empty, next piece of code will run.
   while !name.empty? do
     #push the student hash to the array
-    students << {name: name, cohort: :novembor}
+    students << {name: name, cohort: :november}
     puts "Now we have #{students.count} students"
     #Get another name
     name = gets.chomp
@@ -17,7 +17,6 @@ def input_students
   #return the students array
   students
 end
-
 
 def print_header
   puts "The students of Villains Academy"
